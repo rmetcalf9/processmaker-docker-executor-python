@@ -1,2 +1,3 @@
 export svnMode=RJMGITHUB
 export phpComposerUpdate=TRUE
+export preDeployCommand=./_update_version_in_source.sh

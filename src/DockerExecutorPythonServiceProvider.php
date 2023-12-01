@@ -13,7 +13,7 @@ class DockerExecutorPythonServiceProvider extends ServiceProvider
 {
     use PluginServiceProviderTrait;
 
-    const version = '1.0.0'; // Required for PluginServiceProviderTrait
+    const version = 'ddsdasd'; // Required for PluginServiceProviderTrait
 
     public function register()
     {
@@ -47,7 +47,7 @@ class DockerExecutorPythonServiceProvider extends ServiceProvider
             'name' => 'Python',
             'mime_type' => 'application/x-python-code',
             'package_path' => __DIR__ . '/..',
-            'package_version' => self::version,
+            'package_xxx' => self::xxx,
             'runner' => 'PythonRunner',
             'options' => [
                 'invokerPackage' => 'ProcessMaker_Client',
