@@ -1,0 +1,24 @@
+{
+  "name": "metcarob/processmaker-docker-executor-python",
+  "friendly_name": "Metcarob's Python Docker Executor",
+  "description": "Python executor for processmaker 4",
+  "version": "3333",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "ProcessMaker\\Package\\DockerExecutorPython\\": "src",
+      "ProcessMaker\\ScriptRunners\\": "src/ScriptRunners"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ProcessMaker\\Package\\DockerExecutorPython\\DockerExecutorPythonServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "processmaker/processmaker": "4.*",
+    "processmaker/packages": "4.*"
+  }
+}
