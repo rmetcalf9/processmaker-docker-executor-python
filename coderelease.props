@@ -1,3 +1,2 @@
-source ./_repo_vars.sh
-
 export svnMode=RJMGITHUB
+export phpComposerUpdate=TRUE
