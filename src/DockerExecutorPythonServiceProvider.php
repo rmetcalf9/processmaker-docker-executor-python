@@ -47,7 +47,7 @@ class DockerExecutorPythonServiceProvider extends ServiceProvider
             'name' => 'Python',
             'mime_type' => 'application/x-python-code',
             'package_path' => __DIR__ . '/..',
-            'package_xxx' => self::xxx,
+            'package_version' => self::version,
             'runner' => 'PythonRunner',
             'options' => [
                 'invokerPackage' => 'ProcessMaker_Client',
