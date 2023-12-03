@@ -29,7 +29,7 @@ class DockerExecutorPythonServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        Artisan::command('processmaker-docker-executor-python:install', function () {
+        Artisan::command('docker-executor-python:install', function () {
             ScriptExecutor::install([
                 'language' => 'python',
                 'title' => 'Python Executor',

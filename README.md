@@ -22,3 +22,9 @@ cat output.json
 #  -v <path to local output.json>:/opt/executor/output.json \
 #  processmaker4/docker-executor-java \
 #  /opt/executor/run.sh
+
+## Get processmaker to generate image
+
+Need to have processmaker running.
+
+php artisan docker-executor-python:install
