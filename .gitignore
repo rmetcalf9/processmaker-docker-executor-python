@@ -2,3 +2,5 @@
 src/data.json
 src/config.json
 src/output.json
+
+__pycache__

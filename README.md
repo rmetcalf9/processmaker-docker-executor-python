@@ -18,7 +18,7 @@ cat output.json
 
 #-v <path to local data.json>:/opt/executor/data.json \#
 #  -v <path to local config.json>:/opt/executor/config.json \
-#  -v <path to local Script.java>:/opt/executor/Script.java \
+#  -v <path to local Script.java>:/opt/executor/Script.py \
 #  -v <path to local output.json>:/opt/executor/output.json \
 #  processmaker4/docker-executor-java \
 #  /opt/executor/run.sh
