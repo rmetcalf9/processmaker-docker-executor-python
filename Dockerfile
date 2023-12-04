@@ -1,6 +1,4 @@
-ARG PYTHON_IMAGE
-
-FROM ${PYTHON_IMAGE}
+FROM python:3.11.3
 
 MAINTAINER rmetcalf9@googlemail.com
 
