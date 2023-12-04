@@ -13,7 +13,7 @@ class DockerExecutorPythonServiceProvider extends ServiceProvider
 {
     use PluginServiceProviderTrait;
 
-    const version = '1.1.10'; // Required for PluginServiceProviderTrait
+    const version = '1.1.11'; // Required for PluginServiceProviderTrait
 
     public function register()
     {
