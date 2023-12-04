@@ -1,3 +1,10 @@
 #!/bin/bash
 
-echo "{ \"key\": \"I am only pretending to run python - TODO Actually run python\" }" > output.json
+python3 ./main.py
+RES=$?
+if [[ ${RES} -ne 0 ]]; then
+  echo "Python run failed"
+  exit ${RES}
+fi
+
+exit 0
